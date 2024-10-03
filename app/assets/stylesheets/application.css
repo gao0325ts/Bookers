@@ -1,0 +1,156 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #333;
+  background-color: #FFF;
+  margin: 33px;
+}
+
+h1 {
+  height: 18px;
+  line-height: 18px;
+  font-size: 26px;
+  margin: 17.42px 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+.top-link {
+  color: #666;
+}
+
+p, ul {
+  margin: 33px;
+}
+
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+th {
+  padding: 1px 1px 5px;
+}
+
+td {
+  padding: 1px 5px 7px;
+}
+
+.form-title {
+  font-size: 19.5px;
+  height: 18px;
+  line-height: 18px;
+  margin: 16.185px 0px;
+}
+
+label {
+  display: block;
+}
+
+.form-item {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 1px 2px;
+}
+
+textarea {
+  padding: 2px;
+}
+
+input[type="submit"] {
+  padding: 1px 6px;
+}
+
+.link_container-show {
+  display: inline-block;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+}
+
+th {
+  height: 24px;
+}
+
+.title-col {
+  width: 30%;
+}
+
+.empty-col {
+  width: 20%;
+}
+
+.link-container-index {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.success_message {
+  color: green;
+}
+
+.error-summary {
+  background-color: #C00;
+}
+
+.error-summary h2 {
+  font-size: 12px;
+  color: #FFF;
+  padding: 5px 5px 5px 15px;
+  height: 38px;
+  line-height: 28px;
+}
+
+.error-form {
+  width: 450px;
+  background-color: #F0F0F0;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.error-form li {
+  list-style: square;
+  margin-left: 40px;
+}
